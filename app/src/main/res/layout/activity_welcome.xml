@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBDC1D2"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_image"
+        android:transitionName="logoTransition" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_extrabold"
+        android:gravity="center_horizontal"
+        android:text="Hey! Welcome"
+        android:textColor="@color/text_color"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_extrabold"
+        android:gravity="center_horizontal"
+        android:text="Unlock the World of Films with PocketFilm: Record, Remember, and Rediscover!"
+        android:textColor="#803C3F40"
+        android:layout_marginBottom="3dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="10dp"
+        style="@style/ButtonStyle"
+        android:text="I already have an account" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        style="@style/ButtonStyle"
+        android:background="@drawable/rounded_corners2"
+        android:text="Register" />
+
+</LinearLayout>
